@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.faq-section {
+    width: 50%;
+    max-width: 600px;
+    background: white;
+    padding: 0px;
+    font-size: 32px;
+    color: #231F20;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+#faqTitle {
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#areYouADigitalArtist {
+    font-size: 46px;
+    font-weight: bold;
+    padding: 0px 0px 20px;
+}
+
+.faq-btn {
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    padding: 16px;
+    font-size: 19px;
+    color: #231F20;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+    
+    box-shadow: 0px 1px 0px #ccc, 0px -1px 0px #ccc;
+    border-radius: 0;
+}
+
+.faq-item:first-of-type .faq-btn {
+    box-shadow: 0px 1px 0px #ccc, 0px -1px 0px white;
+}
+
+.faq-btn:hover {
+    background: #ddd;
+}
+
+.faq-content {
+    display: none;
+    padding: 10px;
+    border-left: 3px solid #ffcc00;
+    background: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.artist-signup {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.signup-btn {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #e6b800;
+}
